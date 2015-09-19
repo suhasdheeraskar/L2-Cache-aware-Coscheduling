@@ -1,0 +1,3 @@
+1. The SMT_schedule.c and Makefile are source code for SMT kernel Module and corresponding make file to build it, respectively.
+
+2. The directory Linux kernel sched source code contains core.c and fair.c files where we have modified sched __schedule() and pick_next_task_fair functions, to link with functions in SMT kernel module when it is loaded. The file are placed in linux-3.12.5/kernel/sched directory of linux-3.12.5 version kernel source code. 
